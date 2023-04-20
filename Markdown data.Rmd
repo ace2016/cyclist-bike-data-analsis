@@ -1,0 +1,25 @@
+---
+title: "Cyclist-Data-Analysis"
+author: "Owhofasa Emrobowasan"
+date: "2023-04-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cyclist Bike Share Data
+
+This case-study is a capstone project of the Google Data Analytics Professional course offered by Coursera.
+
+The goal of this project is to derive actionable insights to convert casual riders of the fictional Cyclist Bike-Share company into annual members and to provide Lily Moreno (director of marketing and my manager) with the findings from the data.
+
+###comparison of members and causal users
+
+```{r}
+aggregate(remodified_data$ride_length,list(remodified_data$member_casual), FUN = mean)
+aggregate(remodified_data$ride_length, list(remodified_data$member_casual), FUN = median)
+aggregate(remodified_data$ride_length, list(remodified_data$member_casual), FUN = max)
+aggregate(remodified_data$ride_length, list(remodified_data$member_casual), FUN = min)
+```
