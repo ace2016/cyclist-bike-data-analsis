@@ -35,7 +35,7 @@ View(remodified_data)
 summary(remodified_data$ride_length)
 
 #comparison of members and causal users
-aggregate(remodified_data$ride_length,list(remodified_data$member_casual), FUN = mean)
+aggregate(remodified_data$ride_length, list(remodified_data$member_casual), FUN = mean)
 aggregate(remodified_data$ride_length, list(remodified_data$member_casual), FUN = median)
 aggregate(remodified_data$ride_length, list(remodified_data$member_casual), FUN = max)
 aggregate(remodified_data$ride_length, list(remodified_data$member_casual), FUN = min)
@@ -48,8 +48,7 @@ aggregate(remodified_data$ride_length, list(remodified_data$member_casual, remod
 
 analysis_table <- remodified_data %>%
   group_by(member_casual, day_of_week) %>%
-  summarise(number_of_rides = n(), avg_duration = mean(ride_length)) %>%
-  arrange(member_casual, day_of_week)
+  summarise(number_of_rides = n(), avg_duration = mean(ride_length)) 
 
 write.csv(analysis_table, "cyclist-data.csv", row.names = F)
 write.csv(remodified_data, "cyclist-bike-data.csv", row.names = F)
