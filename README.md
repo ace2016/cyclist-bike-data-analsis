@@ -1,4 +1,4 @@
-## cyclist-bike-data-analsis
+## Cyclist Bike Data Analysis
 Google capstone project for the professional data analytic certification
 
 ## Introduction
@@ -13,7 +13,7 @@ your team will design a new marketing strategy to convert casual riders into ann
 must approve your recommendations, so they must be backed up with compelling data insights and professional data
 visualizations.
 
-##About the company
+## About the company
 In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that
 are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and
 returned to any other station in the system anytime.
@@ -22,13 +22,13 @@ One approach that helped make these things possible was the flexibility of its p
 and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers
 who purchase annual memberships are Cyclistic members.
 
-##BUSINESS TASK: Three questions will guide the future marketing program:
+## BUSINESS TASK: Three questions will guide the future marketing program:
 
 How do annual members and casual riders use Cyclistic bikes differently?
 Why would casual riders buy Cyclistic annual memberships?
 How can Cyclistic use digital media to influence casual riders to become members?
 
-##IS THE DATA ROCCC?
+## IS THE DATA ROCCC?
 
 Reliable - YES, data is accurate, complete, and unbiased
 Original - YES, we can locate the original, public data source
