@@ -3,12 +3,6 @@ library(tidyverse)
 library(lubridate)
 library(data.table)
 
-#define function to calculate mode
-find_mode <- function(x) {
-  u <- unique(x)
-  tab <- tabulate(match(x, u))
-  u[tab == max(tab)]
-}
 
 #upload the multiple files by creating a vector, concatenating the directory -
 #& applying an element name to easily locate the file source
