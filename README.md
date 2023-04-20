@@ -24,9 +24,9 @@ who purchase annual memberships are Cyclistic members.
 
 ## BUSINESS TASK: Three questions will guide the future marketing program:
 
-How do annual members and casual riders use Cyclistic bikes differently?
-Why would casual riders buy Cyclistic annual memberships?
-How can Cyclistic use digital media to influence casual riders to become members?
+* How do annual members and casual riders use Cyclistic bikes differently?
+* Why would casual riders buy Cyclistic annual memberships?
+* How can Cyclistic use digital media to influence casual riders to become members?
 
 ## IS THE DATA ROCCC?
 
