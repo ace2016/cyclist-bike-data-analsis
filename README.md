@@ -67,7 +67,7 @@ With the analyses we completed, we can deduce that;
 * On Average, Thursday has the longest rides and Casual riders go have their peak rides January season.
 
 ## ACT
-###RECOMMENDATIONS:
+### RECOMMENDATIONS:
 
 * Since we want to try to turn casual riders into member riders, the focus of the marketing campaign should be during January/February peak Season, and also provide weekend (Saturday/Sundays) membership freebies (like discounts, addons etc.) to further attract causual riders into opting for membership pass.
 
