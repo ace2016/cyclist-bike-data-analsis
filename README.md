@@ -37,3 +37,41 @@ Current - YES, data is updated monthly
 Cited - YES
 So the data is reliable, original, comprehensive, current, and cited from the company.
 
+
+## PROCESS
+
+The dataset was acquired from https://divvytripdata.s3.amazonaws.com/index.html. Motivate International Inc made the data available under this https://www.divvybikes.com/data-license-agreement. The chosen sample size over 5 million rows and 13 columns.
+
+I decided to use R programming language to clean the data and make it usable, statistical programming language that was taught in the Google Data Analytics program. I imported the 12 months of CSV files into R and named them corresponding to the appropriate months (Jan-2022, Feb-2022, etc.) by creating a dedicated row for easy track of data in future. Due to the size of the dataset, regular spreadsheet packages (Microsoft Excel or Google Sheets) would fail as they are limited to fewer number of rows and also, due to the limitation of BigQuery sandbox (the SQL Package taught in the program), I would have to create multiple tables. Therefore, to analyse this data efficiently, R was chosen
+
+## DASHBOARD
+The interactive dashboard to this project can be found here
+https://public.tableau.com/app/profile/emrobowasan.owhofasa/viz/CyclisticBike-Share_16820879629750/Dashboard1?publish=yes
+
+## Key Findings
+Now that the project is complete, how can we answer the business questions, and recommend next steps for our stakeholders.
+
+We can come back to our questions from Phase 1:
+
+How do annual members and casual riders use Cyclistic bikes differently?
+Why would casual riders buy Cyclistic annual memberships?
+How can Cyclistic use digital media to influence casual riders to become members?
+
+With the analyses we completed, we can deduce that;
+
+* On weekend (Saturdays/Sundays), casual riders use Cyclistic more than annual members.
+* There is significant usage of Cyclistic services in the summer by both casual and annual members.
+* Casual riders take longer rides than annual members on a monthly basis/average maybe due to recreation and annual member use this for commute?
+* Both casual riders and members prefer classic bikes .
+* A significant amount of casual members likes docked bikes and they use this mostly on saturdays.
+* On Average, Thursday has the longest rides and Casual riders go have their peak rides January season.
+
+## ACT
+###RECOMMENDATIONS:
+
+* Since we want to try to turn casual riders into member riders, the focus of the marketing campaign should be during January/February peak Season, and also provide weekend (Saturday/Sundays) membership freebies (like discounts, addons etc.) to further attract causual riders into opting for membership pass.
+
+* The marketing team should also consider focusing their campaign to riders during the weekends, as casual riders are most likely using Cyclistic for recreational services while annual members use it for their daily commute.
+
+* Consideration or a survey should be placed on Casual riders who prefer docked bikes as only a significant amount of casual riders use this, to further more understand how to convert them to members and serve them better.
+
